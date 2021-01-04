@@ -6,11 +6,14 @@
     body{
         font-family: 'Poppins', sans-serif;
     }
+    .p{
+        color:dimgray;
+    }
     .half-width{
         width:40%;
         float:left;
         margin:3%;
-        padding:2%;
+        padding:1.7%;
 
     }
     .half-width-img{
@@ -26,4 +29,47 @@
     .half-width h1{
         font-size:50px;
         margin-bottom:5px;
+    }
+    .top-section{
+        background:url(images/top-banner.png) no-repeat;
+    }
+    .float-clear{
+        clear:both;
+    }
+    .link-button{
+        background:linear-gradient(45deg,salmon,tomato);
+        padding:10px 25px ;
+        color:white;
+        font-weight:700;
+        display: inline-block;
+        text-decoration:none;
+        border-radius:5px;
+        letter-spacing: 2px;
+        margin-top:15px;
+    }
+    .dream-area{
+        background: url(images/dream-bg-min.webp) no-repeat right;
+    }
+    .experience-area{
+        background: url(images/exp-bg-min.webp) no-repeat left;
+    }
+    .sec_experince-car{
+        box-shadow:10px 10px 40px rgba(128, 128, 128, 0.781);
+        height: 250px;
+    }
+    .sec_experince-car.a{
+        border-left:7px solid;
+        border-image: linear-gradient(salmon,tomato);
+        border-image-slice: 1;
+    }
+    .sec_experince-car.b{
+        border-left:7px solid;
+        border-image: linear-gradient(blue,cyan);
+        border-image-slice: 1;
+    }
+    footer{
+        text-align:center;
+    }
+    footer p{
+        font-size:12px;
     }
